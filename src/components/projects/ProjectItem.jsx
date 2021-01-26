@@ -35,10 +35,8 @@ const ProjectItem = ({
 				<p>{description}</p>
 				<div className='mb-5'>
 					{techs_used.map((tech, idx) => (
-						<Fragment>
-							<div key={idx} className='badge badge-primary'>
-								{tech}
-							</div>{' '}
+						<Fragment key={idx}>
+							<div className='badge badge-primary'>{tech}</div>{' '}
 						</Fragment>
 					))}
 				</div>
