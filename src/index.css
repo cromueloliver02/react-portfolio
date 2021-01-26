@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+
+@font-face {
+	font-family: 'Apercu Light';
+	src: url('./assets/font/Apercu\ Pro\ Light.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Apercu Bold';
+	src: url('./assets/font/Apercu\ Bold.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Apercu';
+	src: url('./assets/font/Apercu\ Pro\ Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+:root {
+	--primary-color: #007bff;
+}
+
+/* reset */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #444452;
+	line-height: 1.5;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: lighter;
+}
+
+/* utilities */
+.text-email {
+	text-decoration: underline;
+}
+.primary-text {
+	color: var(--primary-color);
+}
+.text-emphasize {
+	font-weight: 700;
+	color: #2a2a3a;
+}
+.text-link {
+	font-weight: 700;
+	color: #2a2a3a;
+	transition: 0.25s;
+}
+.text-link:hover {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+/* sections */
+.showcase-content {
+	width: 70%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Apercu Light', sans-serif;
+}
+.showcase-name {
+	font-family: 'Apercu Bold', sans-serif;
+}
+
+.section-title {
+	font-family: 'Apercu', sans-serif;
+	font-weight: bolder !important;
+	font-style: normal;
+	letter-spacing: 2px;
+	color: var(--primary-color);
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 0.25rem;
+}
+
+.skill-category,
+.project-title {
+	font-family: 'Apercu', sans-serif;
+	font-weight: bolder !important;
+	font-style: normal;
+	margin-top: 0.25rem;
+	font-weight: 700;
+	color: #2a2a3a !important;
+	text-transform: uppercase;
+}
+
+.skill-item {
+	margin-bottom: 0;
+	font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+	.showcase-content {
+		width: 100%;
+	}
+
+	.showcase-text {
+		font-size: 2rem;
+	}
+
+	.section-title {
+		text-align: left;
+		margin-bottom: 1.5rem;
+	}
+	.background .col-md-7,
+	.skills .col-md-7,
+	.portfolio .col-md-7 {
+		margin-left: 1.5rem;
+	}
+}
