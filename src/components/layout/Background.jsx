@@ -7,7 +7,7 @@ const Background = () => {
 			id='background'
 			className='background py-5'
 			data-aos='fade-in'
-			data-aos-offset='250'
+			data-aos-offset='275'
 			data-aos-once='true'
 		>
 			<div className='container py-5'>

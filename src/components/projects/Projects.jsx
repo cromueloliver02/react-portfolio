@@ -9,14 +9,21 @@ const Projects = () => {
 		<section id='projects' className='portfolio py-5'>
 			<Container className='py-5'>
 				<Row>
-					<Col md='3' className='mr-5'>
+					<Col
+						md='3'
+						className='mr-5'
+						data-aos='fade-in'
+						data-aos-offset='275'
+						data-aos-duration='750'
+						data-aos-once='true'
+					>
 						<h6 className='section-title'>PROJECTS</h6>
 					</Col>
-					<div className='col-md-7'>
+					<Col md='7'>
 						{projects.map((project, idx) => (
 							<ProjectItem key={idx} project={project} />
 						))}
-					</div>
+					</Col>
 				</Row>
 			</Container>
 		</section>

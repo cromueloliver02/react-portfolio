@@ -6,7 +6,7 @@
 		},
 		{
 			"skillCategory": "frameworks",
-			"skillItems": ["React JS", "Express JS", "Bootstrap", "Materialize"]
+			"skillItems": ["React JS", "Express JS", "Bootstrap", "Reactstrap"]
 		},
 		{
 			"skillCategory": "tools",

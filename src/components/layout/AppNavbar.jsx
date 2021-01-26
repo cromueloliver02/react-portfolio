@@ -16,7 +16,7 @@ const AppNavbar = () => {
 	return (
 		<Navbar color='light' light expand='sm' className='fixed-top'>
 			<Container>
-				<NavbarBrand href='#home'>Cromuel Barut</NavbarBrand>
+				{/* <NavbarBrand href='#home'>&lt;&#47;CromDev&gt;</NavbarBrand> */}
 
 				<NavbarToggler onClick={() => toggle(!isOpen)} />
 

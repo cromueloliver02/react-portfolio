@@ -8,7 +8,7 @@ const Skills = () => {
 	return (
 		<section id='skills' className='skills bg-light py-5'>
 			<Container className='py-5'>
-				<Row data-aos='fade-in' data-aos-offset='100' data-aos-once='true'>
+				<Row data-aos='fade-in' data-aos-offset='150' data-aos-once='true'>
 					<Col md='3' className='mr-5'>
 						<h6 className='section-title'>SKILLS</h6>
 					</Col>
