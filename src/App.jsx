@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
 
-import AppNavbar from './components/AppNavbar';
-import Header from './components/Header';
-import Background from './components/Background';
+import AppNavbar from './components/layout/AppNavbar';
+import Header from './components/layout/Header';
+import Background from './components/layout/Background';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
-import Footer from './components/Footer';
+import Footer from './components/layout/Footer';
 
 const App = () => {
 	return (
